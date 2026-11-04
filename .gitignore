@@ -1,0 +1,43 @@
+# Gradle / Fabric Loom
+.gradle/
+build/
+out/
+run/
+.gradle-cache/
+
+# IDE
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.vscode/
+
+# Local runtime / logs
+logs/
+crash-reports/
+debug/
+*.log
+*.hprof
+hs_err_pid*
+replay_pid*
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Credentials / local overrides
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.pfx
+*.key
+local.properties
+
+# Local artifacts
+*.zip
+*.jar
+!gradle/wrapper/gradle-wrapper.jar

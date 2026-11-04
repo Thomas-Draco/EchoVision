@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "echovision",
+  "version": "${version}",
+  "name": "EchoVision",
+  "description": "Client-side acoustic vision: pixelated GLSL echoes reveal world geometry and nearby entities. Toggle with /echovision on|off.",
+  "authors": [
+    "Thomas_Draco"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "fr.echovision.client.EchoVisionClient"
+    ]
+  },
+  "mixins": [
+    "echovision.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
